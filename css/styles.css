@@ -1,9 +1,21 @@
 ul{
 list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 
 a{
 text-decoration: none;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+button{
+        cursor: pointer;
 }
 
 body {
@@ -12,7 +24,21 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
-.header-logo-first {
+.container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        }
+
+
+
+.header{
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+
+        .header-logo-first {
 color: #2e2f42;
 }
 /* -------header-----------*/
@@ -72,6 +98,7 @@ color: #2e2f42;
 
 .main-section{
         background: #2e2f42;
+        padding: 188px 316px 292px 316px;
 }
 
 .main-section-title{
@@ -81,6 +108,8 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
 }
 
 .main-section-button{
@@ -105,6 +134,10 @@ color: #2e2f42;
 /* ------------------------------ */
 /* ----------------fuatures---------- */
 
+.fuatures{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
 
 .fuatures-list-title{
         font-weight: 500;
@@ -112,6 +145,7 @@ color: #2e2f42;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .fuatures-text{
