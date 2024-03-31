@@ -319,6 +319,11 @@ font-family: "Roboto", sans-serif;
         background: #2e2f42;
 }
 
+.container-footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+
 .footer-link{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -327,7 +332,9 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-bottom: 16px;
 }
+
 
 .footer-link-logo{
         font-family: "Raleway", sans-serif;
@@ -337,6 +344,7 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        
 }
 
 .footer-text{
@@ -345,4 +353,6 @@ font-family: "Roboto", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px; ;
+        margin-top: 18px;
 }
