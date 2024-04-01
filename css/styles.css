@@ -47,6 +47,7 @@ background-color: #FFFFFF;
 
 .header-container{
         display: flex;
+        align-items: center;
 }
 
 .header-nav{
@@ -160,7 +161,7 @@ color: #2e2f42;
         display: block;
         min-width: 169px;
         height: 56px;
-
+        margin: 0 auto;
 }
 
 .main-section-button:hover{
@@ -329,8 +330,6 @@ background: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
-        padding-left: 16px;
 }
 
 /* ---------------------------------- */
@@ -371,6 +370,5 @@ background: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        max-width: 264px; ;
-        margin-top: 18px;
+        max-width: 264px;
 }
